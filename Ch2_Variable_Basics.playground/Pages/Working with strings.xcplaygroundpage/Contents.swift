@@ -13,13 +13,22 @@
  
  */
 // Test variable
-
+var dialogue = "some geeky name"
 
 // String data
-
+dialogue.count
+dialogue.isEmpty
+dialogue.contains("S")
+dialogue.contains("e")
 
 // Append and Insert
-
+dialogue.append(" that nerds love")
 
 // Remove and Split
+dialogue.removeLast()
+dialogue.removeFirst()
+
+dialogue.split(separator: " ").contains("geeky")
+
+
 

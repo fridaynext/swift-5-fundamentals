@@ -12,10 +12,11 @@
  
  */
 // Arithmetic (+, -, /, *)
-
+var addition = 5 + (4 - 3) / 2 * 1;
 
 // Compound assignments (+=, -=, *=, /=, %=)
-
+var currentHealth = 45
+currentHealth *= 5
 
 // Modulo (%)
 

@@ -13,7 +13,8 @@
 
 */
 // Creating optionals
-
+var itemGatherd: String?
+var isExchangeable: Bool?
 
 // Forced unwrapping
 

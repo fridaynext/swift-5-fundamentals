@@ -14,8 +14,10 @@
  
  */
 // Test variable
-
+var shouldIContinue = true
 
 // Logical operators (!, &&, ||)
+shouldIContinue = true && false
 
+shouldIContinue = true || false
 

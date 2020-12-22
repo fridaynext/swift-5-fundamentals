@@ -22,6 +22,8 @@ var characterName: String // characterName can only hold string values now
 characterName = "yoMama"
 
 // Type annotation + inference
-
+var maxHealth: Int = 100
 
 // Multiple variables - type annotation shorthand
+var inventoryItems, equipmentSlots, currentGold: Int
+

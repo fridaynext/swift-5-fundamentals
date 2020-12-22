@@ -14,10 +14,15 @@
  
  */
 // Declaring strings
-
+var myName: String = ""
+myName = "Casey 😂"
 
 // Concatenation
+myName += " the First"
+myName += "!"
 
 
+var questDifficulty = 433
 // String interpolation
+let questInfo_Interpolated = "I'm not sure you're ready for \(myName) yet, it's \(questDifficulty) level"
 

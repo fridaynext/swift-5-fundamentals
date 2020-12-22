@@ -14,10 +14,13 @@
  
 */
 // Test variables
-
+var currentGold_Double = 5.836
 
 // Explicit conversions
-
+var currentGold_Integer: Int = Int(currentGold_Double)
+var currentGold_String = String(currentGold_Double)
+currentGold_Double = Double?(currentGold_String)
 
 // Inferred conversion with operators
+
 
